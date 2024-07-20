@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>CFBundleDevelopmentRegion</key>
+    <string>en</string>
+    <key>CFBundleDisplayName</key>
+    <string>YouTube Video Cropper</string>
+    <key>CFBundleIdentifier</key>
+    <string>com.example.youtube-cropper</string>
+    <key>SFSafariWebsiteAccess</key>
+    <dict>
+        <key>Level</key>
+        <string>Some</string>
+        <key>MatchesDomains</key>
+        <array>
+            <string>www.youtube.com</string>
+        </array>
+    </dict>
+    <key>SFSafariContentScript</key>
+    <dict>
+        <key>Script</key>
+        <string>content.js</string>
+        <key>InjectInto</key>
+        <array>
+            <string>top</string>
+        </array>
+    </dict>
+</dict>
+</plist>
